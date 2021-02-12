@@ -35,13 +35,13 @@ for (let i = 0; i < interactChange.length; i++) {
     interactImg.onclick = function displayNextImg() {
         let interactP = interactChange[i].querySelector("p");
         let mySrc = this.getAttribute("src");
-        if (mySrc == "Teyvat.png") {
+        if (mySrc == "Homepage/Teyvat.png") {
             interactP.textContent = "Use promotional code RITEAWAY for 15% off your first purchase!";
-            this.setAttribute("src", "Wanmin.png");
+            this.setAttribute("src", "Homepage/Wanmin.png");
         }
-        else if (mySrc == "Wanmin.png") {
+        else if (mySrc == "Homepage/Wanmin.png") {
             interactP.innerHTML= "&nbsp";
-            this.setAttribute("src", "Teyvat.png");
+            this.setAttribute("src", "Homepage/Teyvat.png");
         }
     };
 
