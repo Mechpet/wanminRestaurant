@@ -1,0 +1,124 @@
+html {  /* refers to the tag html */
+    background-color: rgb(82, 20, 20);
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0 auto; /* divides left space and right space evenly; block still remains the same size */
+    padding: 0px 20px 20px 20px;    /* 0 padding for top, 20px for right, 20 px for bottom, 20 px for left in that order; block is "larger" */
+}
+
+a {
+    color:cyan;
+}
+
+a:hover {
+    color:aquamarine;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+img {
+    margin: auto 0;
+    display: block; /* images are treated as in-line elements (can't apply margin unless treat it as block element) */
+    border-radius: 5px;
+}
+
+ol {
+    text-align: justify;
+    border-style: solid;
+    border-width: 1px 1px 1px 15px;
+    border-color: maroon;
+    background-color: goldenrod;
+}
+
+p {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+hr {
+    height: 1px;
+    border-width: 0px;
+    width: 90%;
+    color: white;
+    background-color: white;
+}
+
+button {
+    display: inline-block;
+    min-width: 25px;
+}
+
+.item {
+    padding: 0px 0px 0px 110px;
+}
+
+.item_name {
+    border-bottom: 3px dotted black;
+}
+
+.item_cost {
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: goldenrod;
+    position: absolute;
+    border-radius: 3px;
+    width: 105px;
+    left: 1%;
+    z-index: 0;
+}
+
+.item_name:hover .item_cost {
+    opacity: 1;
+}
+
+#homename {
+    text-decoration: underline overline;
+    color: gold;
+    font-size: 100px;
+    font-family: "Zhi Mang Xing", cursive;
+    margin: auto 0;
+}
+
+#Signature {
+    font-family: "Caveat", cursive;
+    text-shadow: 0px 1px 1px white;
+}
+
+#logoL {
+    margin: 0px 0px 0px 30px;
+    float: left;
+}
+
+#logoR {
+    margin: 0px 30px 0px 0px;
+    float: right;
+}
+
+.change {
+    text-align: center;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 325px;
+}
+
+.topcard {
+    background-color: rgb(30, 32, 37);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px 5px 0px 5px;
+    border-color: red;
+    padding: 55px 0px 55px 0px;
+    text-align: center;
+}
